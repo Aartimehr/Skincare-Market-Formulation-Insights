@@ -53,25 +53,13 @@ Python 3.8+
 
 pip (Python package installer)
 
-A code editor (e.g., VS Code)
-
-1. Clone the Repository
-git clone https://github.com/your-username/skinlytics.git
-cd skinlytics
-
-Replace your-username with your actual GitHub username.
-
-2. Set up a Virtual Environment
-It is highly recommended to use a virtual environment to manage dependencies.
+A code editor 
+VS code I have used
 
 python -m venv venv
 # On Windows
 venv\Scripts\activate
 3. Install Dependencies
-Install all the required Python libraries using the requirements.txt file (you will need to create this file yourself with the project dependencies):
-
-pip install -r requirements.txt
-
 4. Run the Web Scraper
 The Scrapy spider will crawl the web and store the data in your database.
 
