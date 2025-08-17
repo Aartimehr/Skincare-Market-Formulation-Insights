@@ -1,0 +1,1 @@
+SELECT * FROM moisturizer_usage_clean LIMIT 10;
