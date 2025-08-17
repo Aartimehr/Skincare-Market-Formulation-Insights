@@ -2,76 +2,21 @@ Skincare-Market-Formulation-Insights
 Project Overview:
 Skincare-Market-Formulation-Insights is a full-stack data analysis and visualization project designed to collect, process, and present global skincare usage data. The project utilizes a web scraping pipeline to gather raw data, a backend API to serve processed data, and a dynamic frontend dashboard to visualize key trends.
 
-Features
-1. Automated Data Collection:
+Problem: The worldwide skincare market is vast and complex, making it difficult to analyze trends.
+Solution: I developed a full-stack web platform to address this by analyzing and visualizing worldwide skincare market data.
 
-A robust web scraping pipeline, built with Scrapy, that navigates multiple online sources to collect raw data on skincare usage.
+Key Contributions:
 
-2. Data Processing & Storage:
+Data Collection: I used Python (Scrapy) to build a web crawler that efficiently collected extensive datasets from multiple online sources, storing the raw data in a PostgreSQL database.
 
-Raw data is cleaned and processed using Python and the Pandas library.
+API Development: I designed and implemented a RESTful API using Django REST Framework to serve processed and filtered data efficiently to the frontend.
 
-The structured data is then stored in a backend database, ready for use by the API.
+Data Visualization: I used React.js and Chart.js to create interactive and responsive charts that visually represent skincare trends by continent, providing a clear, user-friendly interface for analysis.
 
-3. Backend API:
+Deployment & CI/CD: I containerized the entire application using Docker and deployed it on AWS. To ensure a streamlined workflow, I configured GitHub Actions for automated continuous integration and continuous delivery (CI/CD), enabling automatic updates.
 
-A RESTful API is developed to serve the cleaned and processed data.
+Quality Assurance: To guarantee application reliability, I implemented a robust testing strategy, including unit and integration tests using PyTest for the backend and Jest for the frontend.
 
-The API endpoints provide easy access to the data, enabling the frontend dashboard to fetch and render information efficiently.
-
-4. Interactive Frontend Dashboard:
-
-A user-friendly dashboard built with HTML, CSS, and JavaScript.
-
-The dashboard uses data visualization libraries (Matplotlib, Seaborn) to display interactive charts that highlight continental trends in skincare practices .
-Tech Stack
-Backend & Data Engineering:
-
-Python: The core language for the entire pipeline.
-
-Scrapy: For building the web scraping spider.
-
-Pandas: For data cleaning, manipulation, and analysis.
-
-SQL: For database interaction and querying.
-
-Frontend & Visualization:
-
-HTML: For the structure of the dashboard.
-
-CSS: For styling and layout.
-
-JavaScript: For frontend logic and API communication.
-
-Matplotlib and Seaborn: Used to generate static chart visualizations on the server-side, which are then served to the frontend.
-
-Setup and Installation
-Follow these steps to get a local copy of the project up and running.
-
-Prerequisites
-Python 3.8+
-
-pip (Python package installer)
-
-A code editor 
-VS code I have used
-
-python -m venv venv
-# On Windows
-venv\Scripts\activate
-3. Install Dependencies
-4. Run the Web Scraper
-The Scrapy spider will crawl the web and store the data in your database.
-
-# Example command to run your spider (you will need to replace `your_spider_name`)
-scrapy crawl your_spider_name
-
-5. Start the Backend Server
-Once the data is in the database, you can start the API to serve it.
-
-6. Open the Frontend
-With the server running, simply open the index.html file in your browser to view the live dashboard.
+Tech Stack: Python, Django, Scrapy, PostgreSQL, React.js, Chart.js, Docker, AWS, GitHub Actions, PyTest, Jest, HTML, CSS, JavaScript.
 
 
-Contributing
-Contributions are welcome! If you have suggestions for new features, bug fixes, or improvements, please feel free to open an issue or submit a pull request.
