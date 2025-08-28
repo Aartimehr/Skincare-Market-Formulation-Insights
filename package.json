@@ -1,0 +1,25 @@
+{
+  "name": "chemipro_usage",
+  "version": "1.0.0",
+  "description": "Skincare-Market-Formulation-Insights\r Project Overview:\r Skincare-Market-Formulation-Insights is a full-stack data analysis and visualization project designed to collect, process, and present global skincare usage data. The project utilizes a web scraping pipeline to gather raw data, a backend API to serve processed data, and a dynamic frontend dashboard to visualize key trends.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aartimehr/Skincare-Market-Formulation-Insights.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aartimehr/Skincare-Market-Formulation-Insights/issues"
+  },
+  "homepage": "https://github.com/Aartimehr/Skincare-Market-Formulation-Insights#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
