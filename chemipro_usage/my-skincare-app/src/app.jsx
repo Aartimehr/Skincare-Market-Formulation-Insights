@@ -65,7 +65,7 @@ export default function App() {
 
         <footer className="bg-white text-center text-gray-600 py-4 mt-8 rounded-xl shadow-lg">
           <p>© 2025 Skincare Data Insights. All Rights Reserved.</p>
-          <p className="text-sm mt-1">Contact: <a href="mailto:info@skincareinsights.com" className="text-sky-500 hover:underline">info@skincareinsights.com</a></p>
+          {/* <p className="text-sm mt-1">Contact: <a href="mailto:info@skincareinsights.com" className="text-sky-500 hover:underline">info@skincareinsights.com</a></p> */}
           <p className="text-sm mt-1">For more details, please visit our GitHub repository.</p>
         </footer>
       </div>
